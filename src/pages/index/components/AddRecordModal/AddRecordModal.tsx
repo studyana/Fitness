@@ -1,6 +1,6 @@
 'use client'
 import { View, Text } from '@tarojs/components';
-// import './AddRecordModal.scss'
+import './AddRecordModal.scss'
 
 
 interface AddRecordModalProps {

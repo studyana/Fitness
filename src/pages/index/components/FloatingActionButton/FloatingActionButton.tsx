@@ -1,5 +1,5 @@
 import { View, Text } from '@tarojs/components';
-// import './FloatingActionButton.scss'
+import './FloatingActionButton.scss'
 
 interface FloatingActionButtonProps {
   onPress: () => void

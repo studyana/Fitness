@@ -1,6 +1,6 @@
 
 import { View,Text } from '@tarojs/components';
-// import './Header.scss'
+import './Header.scss'
 
 interface HeaderProps {
   date: string

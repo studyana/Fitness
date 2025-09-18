@@ -1,6 +1,6 @@
 'use client'
 import { View, Text } from '@tarojs/components';
-// import './QuickActions.scss'
+import './QuickActions.scss'
 
 export default function QuickActions() {
   const quickActions = [

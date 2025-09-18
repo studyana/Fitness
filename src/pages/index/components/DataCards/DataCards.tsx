@@ -1,5 +1,5 @@
 import { View,Text } from '@tarojs/components';
-// import './DataCards.scss'
+import './DataCards.scss'
 
 interface Record {
   id: number

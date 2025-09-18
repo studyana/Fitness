@@ -1,5 +1,5 @@
 import { View, Text } from '@tarojs/components';
-// import './ProgressRing.scss'
+import './ProgressRing.scss'
 
 interface ProgressRingProps {
   progress: number

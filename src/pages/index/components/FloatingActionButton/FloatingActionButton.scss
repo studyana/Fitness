@@ -1,27 +1,30 @@
+$fitness-primary: #22c55e;
+$fitness-secondary: #3b82f6;
+/* Floating Action Button Styles */
 .fab-container {
   position: fixed;
-  bottom: 30px;
+  bottom: 32px;
   right: 20px;
-  width: 56px;
-  height: 56px;
-  background: linear-gradient(135deg, $fitness-primary 0%, $fitness-secondary 100%);
+  width: 96px !important;
+  height: 96px !important;
+  background: $fitness-primary;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+  box-shadow: 0 8px 24px rgba(34, 197, 94, 0.4);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1000;
-  transition: all 0.2s ease;
+}
 
-  &:active {
-    transform: scale(0.95);
-    box-shadow: 0 2px 8px rgba(5, 150, 105, 0.4);
-  }
+.fab-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 32px rgba(34, 197, 94, 0.5);
 }
 
 .fab-icon {
-  font-size: 24px;
+  font-size: 48px !important;
+  color: white;
   font-weight: 300;
-  color: var(--color-primary-foreground);
-  line-height: 1;
 }
