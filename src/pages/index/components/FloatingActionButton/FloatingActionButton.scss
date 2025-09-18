@@ -1,0 +1,27 @@
+.fab-container {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, $fitness-primary 0%, $fitness-secondary 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+  z-index: 1000;
+  transition: all 0.2s ease;
+
+  &:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 8px rgba(5, 150, 105, 0.4);
+  }
+}
+
+.fab-icon {
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--color-primary-foreground);
+  line-height: 1;
+}

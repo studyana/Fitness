@@ -1,0 +1,20 @@
+.header-container {
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  color: var(--color-primary-foreground);
+  border-radius: 0 0 20px 20px;
+}
+
+.date-text {
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.weekday-text {
+  font-size: 14px;
+  opacity: 0.9;
+  display: block;
+}
